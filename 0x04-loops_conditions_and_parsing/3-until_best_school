@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+#using until loop to print the Best School 10 times
+i=1
+until [ $i -gt 10 ]
+do
+	echo Best School
+	i=$((i + 1))
+done
