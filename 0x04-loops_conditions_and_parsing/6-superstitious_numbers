@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Display number for 1 to 20
+#display 4 then bad luck from china for the 4th loop iteration
+#display 9 and then bad luck from Japan for the 9th loop iteration
+#display 17 then bad luck from italy for the 17th loop iteration
+i=1
+while [ $i -lt 21 ]
+do
+	echo $i
+	if [ $i -eq 4 ]
+	then
+		echo bad luck from China
+	elif [ $i -eq 9 ]
+	then
+		echo bad luck from Japan
+	elif [ $i -eq 17 ]
+	then
+		echo bad luck from Italy
+	fi
+	i=$((i + 1))
+done
