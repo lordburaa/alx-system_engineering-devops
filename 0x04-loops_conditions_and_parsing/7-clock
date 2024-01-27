@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
 #display the hour and minute
-i=1
-echo Second: $i
-while [ $i -lt 60 ]
+i=0
+j=0
+while [ $i -lt 13 ]
 do
-	echo $i
-	i=$((i + 1))
-done
-i=1
-echo Hour: $i
-while [ $i -lt 10 ]
-do
-	echo $i
+	echo Hour: $i
+	j=0
+	while [ $j -lt 60 ]
+	do
+		echo $j
+		j=$((j + 1))
+	done
 	i=$((i + 1))
 done
