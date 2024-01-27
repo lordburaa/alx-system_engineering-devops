@@ -1,14 +1,8 @@
 #!/usr/bin/env bash
 #Displays only the part of the name after the first dash is dispalyed
+my_list=$(ls)
 
-ls | sed 's/.*-\(.*\)/\1/' > new
-
-for i in $(cat new)
+for i in $my_list
 do
-	if [ $i = new  ]
-	then
-		continue
-	fi
-	echo $i
+	echo "$i" | cut -d '-' -f2
 done
-rm new
