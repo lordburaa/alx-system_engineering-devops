@@ -9,7 +9,7 @@ until [ $i -gt 100 ]
 do
 	if [[ $(( i % 5 )) -eq 0 && $(( i % 3 )) -eq 0 ]]
 	then
-		echo FizBuzz
+		echo FizzBuzz
 	elif [ $(( i % 3 )) -eq 0 ]
 	then
 		echo Fizz
