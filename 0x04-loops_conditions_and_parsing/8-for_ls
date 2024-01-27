@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#diplay the content of the current directory
+ls
