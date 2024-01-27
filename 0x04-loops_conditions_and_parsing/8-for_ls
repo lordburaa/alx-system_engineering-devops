@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#Displays only the part of the name after the first dash is dispalyed
+
+ls | sed 's/.*-\(.*\)/\1/' > new
+
+for i in $(cat new)
+do
+	if [ $i = new  ]
+	then
+		continue
+	fi
+	echo $i
+done
+rm new
