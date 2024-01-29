@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #displays the visitor ip along with the HTTP status coe from the Apache log file
 file="apache-access.log"
-cat $file | awk -F "-" '{print $1}'
+cat $file | awk '{print $1 " " $9}'
