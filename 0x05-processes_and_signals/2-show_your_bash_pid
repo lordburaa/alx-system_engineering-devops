@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 #displays the line containing the bash word
-shellcheck dispable=SC2009
+#shellcheck disable=SC2009
+#This is intentionaly violate SC2009
+
+
 ps auxf | grep -e 'bash'
