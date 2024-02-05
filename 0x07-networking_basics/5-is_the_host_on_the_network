@@ -3,7 +3,7 @@
 str=$0
 if [ ! $1 ]
 then
-	echo ${str:2} {IP_ADDRESS}
+	echo Usage: ${str:2} {IP_ADDRESS}
 else
 	ping -c 5 $1
 fi
