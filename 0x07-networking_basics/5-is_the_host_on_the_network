@@ -3,7 +3,7 @@
 str=$0
 if [ "$1" == "" ]
 then
-	echo Usage: ${str:2} {IP_ADDRESS}
+	echo Usage: 5-is_the_host_on_the_network {IP_ADDRESS}
 else
 	ping -c 5 "$1"
 fi
