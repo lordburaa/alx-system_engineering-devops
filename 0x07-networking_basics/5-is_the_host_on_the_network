@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Display ping an IP address passed as an argument
 str=$0
-if [ ! $1 ]
+if [ "$1" = "" ]
 then
 	echo Usage: ${str:2} {IP_ADDRESS}
 else
