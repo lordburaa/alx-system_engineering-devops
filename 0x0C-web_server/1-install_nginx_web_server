@@ -2,4 +2,4 @@
 # installing nginvvvvvxx
 sudo apt-get update
 sudo apt install nginx -y
-sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
