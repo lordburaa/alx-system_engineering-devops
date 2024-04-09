@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# installing nginx
+# installing nginxx
 sudo apt-get update
 sudo apt install nginx -y
 sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
