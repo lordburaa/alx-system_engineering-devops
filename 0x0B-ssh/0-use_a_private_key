@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# ssh login
 ssh -i ~/.ssh/web01 ubuntu@100.26.217.211 
